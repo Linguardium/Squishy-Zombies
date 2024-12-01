@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "squishyzombies",
+	"version": "${version}",
+	"name": "Squishy Zombies",
+	"description": "Removes max health bonus added to raid leader zombies",
+	"authors": [
+		"Linguardium"
+	],
+	"contact": { },
+	"license": "CC0-1.0",
+	"icon": "assets/squishyzombies/icon.png",
+	"environment": "*",
+	"entrypoints": { },
+	"mixins": [
+		"squishyzombies.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.1",
+		"java": ">=17"
+	}
+}
